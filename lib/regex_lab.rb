@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  !!word.match(/^[aeiouAEIOU]\w+/)
+  !!word.match(/^[aeiouAEIOU]\w+/)#with double !! the falsey will be false instead of nil
   #  true
   #else false
 
